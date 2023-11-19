@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #FFBB55;
+  --primary-color-light: #FAF6ED;
+  --color01: #000;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.structure {
+  display: grid;
+  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+  background-color: var(--primary-color-light);
+  height: 2000px;
+} 

@@ -1,0 +1,27 @@
+.nav {
+  grid-column: 3/-1;
+  margin: 32px 0;
+}
+
+.nav-list {
+  display: flex;
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+.nav-list li a {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.875rem;
+  color: var(--color01);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  padding: 10px 16px;
+}
+
+.arrow-black {
+  display: inline-block;
+  background: url('../img/arrow-black.svg') no-repeat;
+  width: 10px;
+  height: 10px;
+}
